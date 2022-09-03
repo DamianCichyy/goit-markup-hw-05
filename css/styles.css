@@ -142,7 +142,7 @@ img {
   gap: 10px;
 }
 
-.active::after {
+.blue-line::after {
   bottom: 0;
   left: 0;
   width: 100%;

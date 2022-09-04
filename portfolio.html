@@ -23,34 +23,33 @@
   <body>
     <div class="wrapper">
       <header class="header-border">
-        <div class="header container">
+        <div class="header-container container">
           <a href="index.html" class="logo"
             ><span class="logo-color">Web</span>Studio</a
           >
 
           <nav>
-            <ul class="header-list nav-list">
+            <ul class="header-lists nav-list">
               <li>
                 <a class="nav-links hover" href="index.html">Agencja</a>
               </li>
               <li>
                 <a
-                  class="nav-links hover"
+                  class="nav-links hover links blue-line links"
                   href="portfolio.html"
-                  style="color: #2196f3"
                   >Portfolio</a
                 >
               </li>
               <li>
-                <a class="nav-links hover" href="kontakt.html">Kontakt</a>
+                <a class="nav-links hover links" href="kontakt.html">Kontakt</a>
               </li>
             </ul>
           </nav>
 
-          <ul class="header-list contact-list">
+          <ul class="header-lists contact-list">
             <li>
               <a
-                class="contact-links hover icons"
+                class="contact-links hover icons links"
                 href="mailto:info@devstudio.com"
               >
                 <svg width="16" height="12">
@@ -60,7 +59,10 @@
               >
             </li>
             <li>
-              <a class="contact-links hover icons" href="tel:+48111111111">
+              <a
+                class="contact-links hover icons links"
+                href="tel:+48111111111"
+              >
                 <svg width="10" height="16">
                   <use href="images/icons.svg#icon-smartphone"></use>
                 </svg>
@@ -72,27 +74,27 @@
       </header>
 
       <main>
-        <div class="container">
-          <section class="section">
+        <section class="section">
+          <div class="container">
             <ul class="portfolio-buttons-list">
               <li>
-                <button class="portfolio-bottons" type="botton">
+                <button class="portfolio-buttons" type="botton">
                   Wszystkie
                 </button>
               </li>
               <li>
-                <button class="portfolio-bottons" type="botton">Strony</button>
+                <button class="portfolio-buttons" type="botton">Strony</button>
               </li>
               <li>
-                <button class="portfolio-bottons" type="botton">
+                <button class="portfolio-buttons" type="botton">
                   Aplikacje
                 </button>
               </li>
               <li>
-                <button class="portfolio-bottons" type="botton">Dizajn</button>
+                <button class="portfolio-buttons" type="botton">Dizajn</button>
               </li>
               <li>
-                <button class="portfolio-bottons" type="botton">
+                <button class="portfolio-buttons" type="botton">
                   Marketing
                 </button>
               </li>
@@ -107,6 +109,12 @@
                     width="370"
                     height="294"
                   />
+                  <p class="card-overlay">
+                    Technocrack jest popularną platformą wykorzystywaną do
+                    rozpowszechniania koronawirusa. Firmy wykorzystują tę
+                    platformę do celów szpiegowskich i ataków na
+                    niezabezpieczone serwery konkurencji
+                  </p>
                   <figcaption class="cards-border">
                     <h3 class="cards-header">Technocrack</h3>
                     <p class="cards-paragraph">Strona internetowa</p>
@@ -228,31 +236,32 @@
                 </figure>
               </li>
             </ul>
-          </section>
-        </div>
+          </div>
+        </section>
       </main>
 
       <footer class="footer-background">
-        <div class="footer container">
-          <div class="footer-contacts">
-            <a href="index.html" class="logo footer-logo"
-              ><span class="logo-color">Web</span>Studio</a
+        <div class="footer-container container">
+          <div>
+            <a href="index.html" class="logo footer-logo">
+              <span class="logo-color">Web</span>Studio</a
             >
-
             <address>
               <ul class="address-list">
                 <li>
-                  <p class="address-paragraph">
+                  <p class="footer-paragraph">
                     m. Warszawa, Aleje Jerozolimskie 21
                   </p>
                 </li>
                 <li>
-                  <a class="hover footer-links" href="mailto:info@example.com"
+                  <a
+                    href="mailto:info@example.com"
+                    class="footer-links hover links"
                     >info@example.com</a
                   >
                 </li>
                 <li>
-                  <a class="hover footer-links" href="tel:+48111111111"
+                  <a href="tel:+48111111111" class="footer-links hover links"
                     >+48 111 111 111</a
                   >
                 </li>
@@ -262,55 +271,55 @@
 
           <div>
             <h3 class="footer-header">Dołącz do nas</h3>
-            <ul class="footer-social-links-list">
+            <ul class="footer-social-links">
               <li>
                 <a href="https://www.instagram.com" target="_blank">
-                  <svg class="footer-social-links">
+                  <svg class="footer-social-link">
                     <use
                       href="images/icons.svg#icon-instagram"
                       width="20"
                       height="20"
-                      x="12"
                       y="12"
+                      x="12"
                     ></use>
                   </svg>
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com" target="_blank">
-                  <svg class="footer-social-links">
+                <a href="https://www.twitter.com" target="_blank">
+                  <svg class="footer-social-link">
                     <use
                       href="images/icons.svg#icon-twitter"
                       width="20"
                       height="20"
-                      x="12"
                       y="12"
+                      x="12"
                     ></use>
                   </svg>
                 </a>
               </li>
               <li>
-                <a href="https://pl-pl.facebook.com" target="_blank">
-                  <svg class="footer-social-links">
+                <a href="https://www.facebook.com" target="_blank">
+                  <svg class="footer-social-link">
                     <use
                       href="images/icons.svg#icon-facebook"
                       width="20"
                       height="20"
-                      x="12"
                       y="12"
+                      x="12"
                     ></use>
                   </svg>
                 </a>
               </li>
               <li>
                 <a href="https://www.linkedin.com" target="_blank">
-                  <svg class="footer-social-links">
+                  <svg class="footer-social-link">
                     <use
                       href="images/icons.svg#icon-linkedin"
                       width="20"
                       height="20"
-                      x="12"
                       y="12"
+                      x="12"
                     ></use>
                   </svg>
                 </a>

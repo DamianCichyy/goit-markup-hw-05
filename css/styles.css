@@ -423,6 +423,9 @@ img {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  position: relative;
+  background: #fff;
+  z-index: 3;
 }
 
 .cards-header {

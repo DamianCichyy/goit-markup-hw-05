@@ -387,10 +387,89 @@ img {
   line-height: 1.625;
   text-align: center;
   color: var(--notblack);
-  border-style: none; padding: 6px 22px;
+  border-style: none;
+  padding: 6px 22px;
+  border-radius: 4px;
 }
 
-.por
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--blue);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.figcaption-border {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 20px 0 20px 24px;
+  z-index: 2;
+  position: relative;
+  background-color: var(--white);
+  border-right: 1px solid var(--productborder);
+  border-bottom: 1px solid var(--productborder);
+  border-left: 1px solid var(--productborder);
+}
+
+.card-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--notblack);
+}
+
+.card-paragraph {
+  font-size: 16px;
+  line-height: 1.875;
+}
+
+.box {
+  position: relative;
+  overflow: hidden;
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.box-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  font-size: 18px;
+  line-height: 1.556;
+  color: var(--white);
+  background-color: var(--cardoverlay);
+  padding: 49px 45px 0 24px;
+  transform: translateY(100%);
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.box:hover,
+.box:focus {
+  cursor: pointer;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.box:hover .box-overlay {
+  transform: translateX(0);
+}
+
+/* Cards styles */
 
 /**/
 /* Footer styles */

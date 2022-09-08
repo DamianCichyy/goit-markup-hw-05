@@ -390,6 +390,9 @@ img {
   border-style: none;
   padding: 6px 22px;
   border-radius: 4px;
+  transition-property: box-shadow, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-button:hover,

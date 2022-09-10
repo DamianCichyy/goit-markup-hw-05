@@ -547,11 +547,11 @@ img {
 /**/
 
 .modal {
-  position: absolute;
   width: 528px;
   height: 581px;
-  left: 50%;
+  position: absolute;
   top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   background-color: var(--white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -563,7 +563,7 @@ img {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transform: scale(1);
+  transform: scale(0.8);
 }
 
 .modal-background {
@@ -573,9 +573,7 @@ img {
   left: 0px;
   top: 0px;
   background-color: var(--backgroundmodalwindow);
-  transition-property: all;
-  transition-duration: 500ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-button {

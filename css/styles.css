@@ -563,7 +563,7 @@ img {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transform: scale(2);
+  transform: scale(1);
 }
 
 .modal-background {
